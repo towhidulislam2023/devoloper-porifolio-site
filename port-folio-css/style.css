@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+
+/* Header section  */
+body {
+    height: 100vh;
+}
+
+.header {
+    height: 100vh;
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: 700px, 80px;
+}
+
+nav {
+    padding: 51px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: black;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    font-style: normal;
+}
+
+.w-c {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.primary-btn {
+    height: fit-content;
+    padding: 18px 25px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.header-content {
+    padding: 51px 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    gap: 163px;
+
+}
+
+.hardy-image {
+    width: 384px;
+    height: 472px;
+}
+
+.header-title {}
+
+.second-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 5px;
+
+}
+
+.fist-title {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+
+.title-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* about section  */
+.about {
+    height: 70vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-conntent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 350px;
+    width: 640px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 54px;
+}
+
+.parsonal-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parsonal-info .name {
+    margin-left: 34px;
+    color: #757575;
+}
